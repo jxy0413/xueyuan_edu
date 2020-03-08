@@ -1,0 +1,147 @@
+2020-02-25 09:10:01.695 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 09:10:01.697 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 09:10:01.698 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 09:10:01.703 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 09:10:01.704 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 09:10:01.704 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 09:10:01.705 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 09:39:52.948 [http-nio-8001-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved exception caused by handler execution: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+### The error may involve com.online.edu.eduservice.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career,  avatar, sort,  gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?,  ?, ?,  ?, ? )
+### Cause: java.sql.SQLException: Field 'level' doesn't have a default value
+; Field 'level' doesn't have a default value; nested exception is java.sql.SQLException: Field 'level' doesn't have a default value
+2020-02-25 14:31:37.189 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 14:31:37.191 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 14:31:37.191 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 14:31:37.192 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 14:31:37.192 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 14:31:37.193 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 14:31:37.194 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 16:12:34.743 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:12:34.744 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:12:34.745 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:12:34.747 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:12:34.751 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:12:34.752 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:12:34.753 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 16:23:27.297 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:23:27.298 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:23:27.299 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:23:27.300 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:23:27.301 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:23:27.302 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 16:23:27.303 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 22:02:04.448 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:02:04.449 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:02:04.450 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:02:04.451 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:02:04.452 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:02:04.454 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:02:04.455 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 22:02:11.153 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-02-25 22:02:11.160 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-02-25 22:02:15.862 [restartedMain] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failure with status code 404; retrying on another server if available
+2020-02-25 22:02:15.873 [restartedMain] WARN  com.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+2020-02-25 22:02:45.941 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failure with status code 404; retrying on another server if available
+2020-02-25 22:02:45.949 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: null
+2020-02-25 22:02:45.966 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: null
+2020-02-25 22:03:15.968 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failure with status code 404; retrying on another server if available
+2020-02-25 22:03:16.003 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: null
+2020-02-25 22:03:22.881 [Thread-53] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1582639402881, current=DOWN, previous=UP]
+2020-02-25 22:03:22.912 [Thread-53] WARN  o.s.c.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-02-25 22:03:35.594 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:03:35.595 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:03:35.596 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:03:35.596 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:03:35.597 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:03:35.597 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:03:35.598 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 22:03:43.324 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-02-25 22:03:43.334 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-02-25 22:07:43.312 [Thread-53] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1582639663312, current=DOWN, previous=UP]
+2020-02-25 22:07:43.337 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2020-02-25 22:07:43.340 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2020-02-25 22:07:43.341 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_GULI-EDU/192.168.0.206:guli-edu:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 22:07:43.343 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 22:07:43.364 [Thread-53] WARN  o.s.c.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-02-25 22:07:53.470 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduChapterMapper' and 'com.online.edu.eduservice.mapper.EduChapterMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:07:53.470 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseDescriptionMapper' and 'com.online.edu.eduservice.mapper.EduCourseDescriptionMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:07:53.471 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduCourseMapper' and 'com.online.edu.eduservice.mapper.EduCourseMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:07:53.471 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduSubjectMapper' and 'com.online.edu.eduservice.mapper.EduSubjectMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:07:53.472 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduTeacherMapper' and 'com.online.edu.eduservice.mapper.EduTeacherMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:07:53.472 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - Skipping MapperFactoryBean with name 'eduVideoMapper' and 'com.online.edu.eduservice.mapper.EduVideoMapper' mapperInterface. Bean already defined with the same name!
+2020-02-25 22:07:53.472 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.online.edu.eduservice.mapper]' package. Please check your configuration.
+2020-02-25 22:07:57.337 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-02-25 22:07:57.345 [restartedMain] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-02-25 22:24:59.291 [Thread-12] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1582640699291, current=DOWN, previous=UP]
+2020-02-25 22:24:59.323 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2020-02-25 22:24:59.326 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+2020-02-25 22:24:59.331 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EDU_SERVICE/192.168.0.206:edu_service:8001 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 22:24:59.332 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-25 22:24:59.353 [Thread-12] WARN  o.s.c.annotation.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)

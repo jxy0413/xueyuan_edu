@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.online.edu.eduservice.mapper.EduCourseMapper">
+    <select id="getCourseInfoAll" resultType="com.online.edu.eduservice.entity.dto.CourseInfoDto">
+      select edu_course.id,edu_course.title,edu_course.price,edu_course.cover,edu_course_description.description,
+      edu_teacher.name teacherName,s1.title oneLevel,s2.title twoLevel
+      from edu_course left join edu_course_description on edu_course.id = edu_course_description.idbak
+       left join edu_teacher on edu_course.teacher_id =edu_teacher.id
+       left join edu_subject s1 on edu_course.subject_parent_id = s1.id
+       left join edu_subject s2 on edu_course.id = s2.id
+     where edu_course.id=#{courseId}
+    </select>
+</mapper>
